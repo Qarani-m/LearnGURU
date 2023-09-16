@@ -1,0 +1,32 @@
+/* I want each p to have its own box */
+.CourseDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-height: 250px;
+    margin-bottom: 1rem;
+    color: inherit;
+    border-radius: 0;
+    border: none;
+
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-height: 250px;
+    margin-bottom: 1rem;
+    color: black;
+    border-radius: 0;
+    border: none;
+    background-image: url(https://img.freepik.com/free-photo/green-chalkboard-surface-background_125540-1052.jpg?t=st=1690805733~exp=1690806333~hmac=0877394bf98b0bd6c8f43d2b10f9e0f38d6dbb25db0c2cb652ae7f35a0ffbf46);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+
+
+}

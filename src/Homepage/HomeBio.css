@@ -1,0 +1,28 @@
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.block {
+    max-height: 300px;
+    margin: 0 12px;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-y: scroll;
+    background-image: url(https://img.freepik.com/free-photo/green-dirty-blackboard_125540-774.jpg?w=996&t=st=1690821639~exp=1690822239~hmac=d36da8b827ecd2f4509e2790cce3549b4dc5c3239793f1c368e17c2e22cbb356);
+    background-size: 100% auto;
+}
+
+.fixed {
+    background-attachment: fixed;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin: 0;
+}

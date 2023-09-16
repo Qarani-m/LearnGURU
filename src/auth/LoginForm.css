@@ -1,0 +1,13 @@
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/green-chalkboard-surface-background_125540-1052.jpg?t=st=1690805733~exp=1690806333~hmac=0877394bf98b0bd6c8f43d2b10f9e0f38d6dbb25db0c2cb652ae7f35a0ffbf46);
+
+}

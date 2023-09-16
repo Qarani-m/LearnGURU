@@ -1,0 +1,40 @@
+.CourseCard {
+    /* want the box to cover the whole text
+     */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-height: 250px;
+    margin-bottom: 1rem;
+    color: inherit;
+    border-radius: 0;
+    border: none;
+    background-image: url(https://img.freepik.com/free-photo/green-dirty-blackboard_125540-774.jpg?w=996&t=st=1690821639~exp=1690822239~hmac=d36da8b827ecd2f4509e2790cce3549b4dc5c3239793f1c368e17c2e22cbb356);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.CourseCard img {
+    width: 50px;
+}
+
+.CourseCard:hover {
+
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: #b7b7a4;
+}
+
+.CourseCard .card-body:hover {
+    background-color: #b7b7a4;
+}
+
+.CourseCard .card-body {
+    padding: 1rem;
+}
+
+
+.CourseCard .card-text:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,27 @@
+.Homepage {
+
+    height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ddbea9;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    color: #838364;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s ease-in-out;
+}

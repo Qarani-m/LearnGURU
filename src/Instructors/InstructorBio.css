@@ -1,0 +1,14 @@
+.InstructorBio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 1rem;
+    text-align: center;
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/black-cracked-wall_1194-6601.jpg?w=900&t=st=1690824740~exp=1690825340~hmac=dfdab477c8871b5b96baa5f802e928792d2e493302cb99f943578cc3e5d0948f);
+
+}
